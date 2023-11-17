@@ -55,3 +55,18 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
+ button {
+    background-color: #86b3d1;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+button:hover {
+    background-color: #5a809e;
+}

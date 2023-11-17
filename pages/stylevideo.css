@@ -1,6 +1,7 @@
-.container {
-    text-align: center; 
-    padding: 10px;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
 
 h3 {
@@ -10,23 +11,50 @@ h3 {
     font-weight: bold;
 }
 
+.container {
+    max-width: 10000px;
+    margin: 0 auto;
+}
+
+.youtube-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #86b3d1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.youtube-button:hover {
+    background-color: #5a809e;
+}
+
 hr {
     border: none;
-    border-top: 2px dotted #86b3d1  ;
+    border-top: 2px dotted #86b3d1;
     margin: 20px 0;
 }
 
-.youtube-link {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #86b3d1; 
-    color: #fff; 
-    text-decoration: none; 
+button {
+    display: block;
+    padding: 10px;
+    background-color: #86b3d1;
+    color: #fff;
+    border: none;
     border-radius: 5px;
-    margin: 10px; 
-    transition: background-color 0.3s ease; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px 650px;
 }
 
-.youtube-link:hover {
-    background-color: #c3e2f7; /
+button:hover {
+    background-color: #5a809e;
 }
